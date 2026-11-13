@@ -1,0 +1,301 @@
+{
+ "geometry": {
+  "inner_w_min_mm": 1169.7,
+  "inner_w_max_mm": 1483.2,
+  "side_len_mm": 1913.3,
+  "head_corner_y_mm": 158.8,
+  "outer_w_m": 1.487,
+  "outer_l_m": 1.913,
+  "footprint_m": [
+   2.09,
+   2.86
+  ],
+  "footprint_m2": 5.97,
+  "cot_max_mm": 1020.0,
+  "clear_each_side_mm": {
+   "600": 285.0,
+   "750": 210.0,
+   "850": 160.0,
+   "1000": 85.0
+  },
+  "cot_overhang_mm": 247.0
+ },
+ "air": {
+  "open_top_m2": 2.42,
+  "open_end_m2": 1.78,
+  "perf_m2": 0.05,
+  "perf_holes": 40,
+  "perf_share_pct": 1.2,
+  "pod_volume_m3": 2.94,
+  "wall_top_mm": 1212.5
+ },
+ "mass": {
+  "duo_kg": 1.008,
+  "panels_kg": 4.03,
+  "clips_kg": 0.38,
+  "clip_each_g": 64.0,
+  "blocks_kg": 0.93,
+  "block_each_solid_kg": 0.517,
+  "outriggers_kg": 0.11,
+  "feet": 4,
+  "pins_kg": 0.058,
+  "pads_kg": 0.074,
+  "channels_kg": 0.51,
+  "strips_kg": 0.074,
+  "carried_kg": 7.4,
+  "ballast_kg": 20.0,
+  "standing_kg": 26.6
+ },
+ "pack": {
+  "panels_mm": 40.0,
+  "panels_folded_mm": [
+   600,
+   1200
+  ],
+  "note": "platform: a duo folds to about 10 mm (FXP-PLT-001 section 11)"
+ },
+ "sight": {
+  "standing": {
+   "woman 5th": {
+    "at 0.3 m": {
+     "body_m": 0.58,
+     "face_m": 0.71
+    },
+    "at 0.5 m": {
+     "body_m": 0.97,
+     "face_m": 1.18
+    },
+    "at 1.0 m": {
+     "body_m": 1.93,
+     "face_m": 2.36
+    }
+   },
+   "man 95th": {
+    "at 0.3 m": {
+     "body_m": 0.22,
+     "face_m": 0.27
+    },
+    "at 0.5 m": {
+     "body_m": 0.37,
+     "face_m": 0.46
+    },
+    "at 1.0 m": {
+     "body_m": 0.74,
+     "face_m": 0.91
+    }
+   }
+  },
+  "wall_top_mm": 1212.5,
+  "face_from_wall_m": 0.58,
+  "tall_sees_face_within_m": 0.64,
+  "seated_eye_mm": [
+   1148.0,
+   1310.0
+  ],
+  "lying_eye_mm": 720.0,
+  "seated_eye_above_top_mm": [
+   -64,
+   98
+  ]
+ },
+ "thermal": {
+  "plume": {
+   "sleeping": {
+    "m3h": 51.9,
+    "dT_K": 4.1
+   },
+   "reclining": {
+    "m3h": 54.0,
+    "dT_K": 4.5
+   },
+   "seated quiet": {
+    "m3h": 59.4,
+    "dT_K": 5.4
+   }
+  },
+  "plume_m3h_at_top": 59.4,
+  "plume_dT_K": 5.4,
+  "pod_volume_changes_per_h": 17.7,
+  "y_rise_m": 0.4,
+  "oxygen_pct": {
+   "5 L/min, exchange x 1.0": [
+    21.3,
+    21.4
+   ],
+   "5 L/min, exchange x 0.5": [
+    21.7,
+    21.8
+   ],
+   "10 L/min, exchange x 1.0": [
+    21.7,
+    21.8
+   ],
+   "10 L/min, exchange x 0.5": [
+    22.5,
+    22.7
+   ],
+   "15 L/min, exchange x 1.0": [
+    22.1,
+    22.2
+   ],
+   "15 L/min, exchange x 0.5": [
+    23.3,
+    23.6
+   ]
+  },
+  "oxygen_threshold_pct": 23.5
+ },
+ "droplet_geometry": {
+  "cot or body": 26.4,
+  "top": 22.4,
+  "wall": 47.7,
+  "foot end": 2.4,
+  "foot end or floor": 1.1,
+  "side_wall_m": 0.58,
+  "head_wall_m": 0.45,
+  "horizontal_share_blocked_pct": 84.9,
+  "up_30deg_cone_to_top_pct": 100.0,
+  "joint_slit_mm": 11.6
+ },
+ "tip": {
+  "z_push_mm": 1110.5,
+  "pod_kg": 26.0,
+  "out_side_N": 239.0,
+  "released_half_out_N": 22.0,
+  "released_half_in_N": 16.0,
+  "free_end_out_N": 11.0,
+  "free_end_in_N": 9.0,
+  "pull_in_N": 9.0,
+  "pull_need_N": [
+   137,
+   281
+  ],
+  "grab_bar_N": 1112.0,
+  "slide_N": [
+   102,
+   153
+  ],
+  "push_N": 178.0,
+  "leaf_25mm_N": 5.8,
+  "clip_cap_N": 176.0,
+  "top_clip_share": 0.82,
+  "top_clip_N": [
+   56,
+   115,
+   113,
+   231
+  ],
+  "gust_on_two_leaves_N": {
+   "2.0 m/s": 3.5,
+   "3.0 m/s": 7.8,
+   "5.0 m/s": 21.6
+  }
+ },
+ "outrigger": {
+  "M_Nm": 6.4,
+  "I_mm4": 16250,
+  "stress_MPa": 11.3,
+  "pp_yield_MPa": 24.0
+ },
+ "terminal_leaf": {
+  "flat_strip_factor": [
+   1.73,
+   0.87
+  ],
+  "held_both_edges_margin_LF2": [
+   4.7,
+   2.4
+  ],
+  "held_with_creep_0p3": 1.4
+ },
+ "fire": {
+  "sheet_m2": 5.92,
+  "pod_MJ": 165.0,
+  "petg_MJ": 28.1,
+  "bags_MJ": 8.6,
+  "total_pod_MJ": 201.0,
+  "mattress_MJ": 144.0,
+  "mattress_peak_kW": 916.7,
+  "ratio_pod_to_mattress": 1.4,
+  "r_25kW_m": 0.94,
+  "r_10kW_m": 1.48,
+  "flame_height_m": 2.2,
+  "gap_between_pods_at_2p5m_m": 1.01,
+  "neighbour_wall_from_bed_m": 1.76,
+  "q_neighbour_from_mattress_kW_m2": 7.1
+ },
+ "deploy_min": [
+  4.2,
+  8.3
+ ],
+ "access": {
+  "release_s": [
+   8.0,
+   20.0
+  ],
+  "clips_to_release": 2,
+  "head_open_chord_m": 0.85,
+  "head_clear_behind_m": 0.6,
+  "side_clear_closed_mm": 210.0,
+  "cot_pull_out_m": 1.1
+ },
+ "density": {
+  "m2_per_pod": 7.22,
+  "msf_m2_per_bed": 4.0,
+  "beds_per_45m2_plain": 10,
+  "pods_per_45m2": 6.2,
+  "fits_2p5m_pitch": true,
+  "pitch_needed_mm": 2087.0,
+  "pitch_needed_walls_mm": 1487.0,
+  "floor_gap_between_rigs_at_2p5m_mm": 413.0,
+  "bags_reach_mm": 300.0
+ },
+ "cost": {
+  "bom_total": 214.0,
+  "target": 120.0,
+  "stretch": 75.0,
+  "over": 94.0,
+  "drivers": [
+   [
+    "1 P12 duo panel, FXP-S4FR",
+    90.0
+   ],
+   [
+    "10 Freight share for 48 x 96 in sheets",
+    25.0
+   ],
+   [
+    "9 Carry bag",
+    20.0
+   ],
+   [
+    "3 Pod foot block",
+    18.6
+   ]
+  ],
+  "per_use_50": 4.28,
+  "per_use_100": 2.14,
+  "prototype_cash_usd": 599.9
+ },
+ "FS2": {
+  "mass_kg": 11.9,
+  "posts": 7,
+  "height_mm": 1750.0,
+  "cost_benchmark_usd": 421.58,
+  "note": "two Medline 3-panel FR vinyl screens would screen the U",
+  "side_tip_N": 3.5,
+  "side_tip_ballast_N": 12.4
+ },
+ "FS3": {
+  "mass_kg": 2.4,
+  "top_mm": 1200.0,
+  "side_len_mm": 700.0
+ },
+ "P12_vs_P18": {
+  "P18_duo_kg": 1.512,
+  "P18_pod_kg_panels": 6.05,
+  "P18_sheets": 4,
+  "P12_sheets": 2,
+  "P18_free_end_flat_strip": "fails cold (FXP-PLT-001 P2: flat h_cr 1,441 mm < 1,800 mm)"
+ }
+}

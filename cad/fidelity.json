@@ -1,0 +1,47 @@
+{
+ "level": "D3",
+ "stage": "P3",
+ "hash": "39e03e700e22f1c9",
+ "options": {
+  "FS1": {
+   "title": "Origami panel pod (FR twinwall, split head)",
+   "parts": 68,
+   "made_or_bought": 44,
+   "fasteners": 24,
+   "welds": 0,
+   "bare": [],
+   "bare_share": 0.0,
+   "interference": [],
+   "mass_kg": 31.0,
+   "step_files": 44
+  },
+  "FS2": {
+   "title": "Fabric privacy screen on a pole frame",
+   "parts": 91,
+   "made_or_bought": 63,
+   "fasteners": 28,
+   "welds": 0,
+   "bare": [],
+   "bare_share": 0.0,
+   "interference": [],
+   "mass_kg": 10.8,
+   "step_files": 0
+  },
+  "FS3": {
+   "title": "Cot-mounted head-end screen",
+   "parts": 34,
+   "made_or_bought": 18,
+   "fasteners": 16,
+   "welds": 0,
+   "bare": [],
+   "bare_share": 0.0,
+   "interference": [],
+   "mass_kg": 2.2,
+   "step_files": 0
+  }
+ },
+ "failures": [],
+ "warnings": [],
+ "passed": true,
+ "seconds": 32.6
+}
